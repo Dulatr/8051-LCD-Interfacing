@@ -13,4 +13,4 @@ to the keypad.
 
 #### Using this repository
 
-Just upload the [LCD_Interfacing_Controller]() file to the 8051 and turn it on!
+Just upload the [LCD_Interfacing_Controller](https://github.com/Dulatr/8051-LCD-Interfacing/blob/master/8051/LCD_Interfacing_Controller.c) file to the 8051 and turn it on!
