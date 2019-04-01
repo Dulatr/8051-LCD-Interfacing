@@ -1,4 +1,4 @@
-  //DULA-TYLER GRADPROJECT-MICROCONTROLLERS
+  //Tyler Dula
   //DOES: Interfacing HD44780 Controller with 8051 Controller to display on a dot matrix LCD Screen
   //     - A 4x3 numeric keypad is tied to an MM74C922 16-key decoder which has 4 data out bits, and sends an interrupt signal to INT0
   //	 - The high nibble of port 1 is used as the data out bus for the LCD controller in 4-bit mode
@@ -208,7 +208,7 @@ void resetLCD4(void)
 
 
 // ====================================================
-// subroutine mdelay  by Sid Clements 11/8/97 
+// subroutine mdelay revised by Tyler Dula
 // use for LCD initialization routine delays
 // if using 12 MHZ crystal, 
 // delays ABOUT m milliseconds without using a timer
@@ -351,7 +351,7 @@ void readLCD4(void)
 
 
 //; ====================================================
-//; subroutine LCDoutstr by Sid Clements
+//; subroutine LCDoutstr revised by Tyler Dula
 //; (modified McKenzies monitor outstr routine)
 //; print a STRING of characters to the LCD
 //; string MUST end with a $
